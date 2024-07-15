@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+body {
+    margin: 0;
+    overflow: hidden;
+
+}
+.image{
+    width: 997px;
+    margin: 0;
+    border: none;
+    padding: 0;
+    border-radius: 2px;
+    height: 765px;
+    object-fit: cover;
+    object-position: top;
+}
+.pnc-logo {
+    position: absolute;
+    right: 30px;
+    top: 97px;
+    padding: 48px;
+    cursor: pointer;
+}
+.pinacle-logo{
+    position: absolute;
+    right: 54px;
+    top: 173px;
+    padding: 48px;
+    width: 252px;
+    height: 78px;
+}
+.lms{
+    font-family:"Nunito", sans-serif;;
+    font-size: 14.5px;
+    font-weight: 700;
+    font-style: normal;
+    position: absolute;
+    right: 5px;
+    top: 156px;
+    padding: 120px;
+    color: rgb(42, 103, 45);
+    opacity: 0.8;
+}
+.student-login{
+    position: absolute;
+    width: 255px;
+    right: 80px;
+    top: 345px;
+    padding: 19px;
+    border-width: -10px;
+    background-color: #D4EDDA;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    border: none;
+    height: 1px;
+   
+}
+.container-login{
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    position: absolute;
+    right: -17px;
+    top: 154px;
+    padding: 180px;
+    color: #155724;
+    opacity: 0.9;
+    
+}
+.login-container{
+    width: 385px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    right: 25px;
+    top: 338px;
+    background-color: transparent;
+    width: 400px;
+    height: 200px;
+    border-radius: 2px;
+}
+.username{
+    width: 242px;
+    outline: none;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 4px solid;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    height: 2px;
+    margin-bottom: 8px;
+    padding-left: 35px;
+    
+    
+}   
+
+input::placeholder {
+    padding-left: -100px;
+    font-size: 13px;
+    font-family: "Nunito", sans-serif;
+}
+
+.password{
+    width: 242px;
+    outline: none;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 4px solid;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    height: 2px;
+    margin-bottom: 2px;
+    padding-left: 35px;
+} 
+
+.forgot{
+    position: absolute;
+    right: 80px;
+    bottom: 205px;
+    font-size: 15px;
+    font-family: "Nunito", sans-serif;
+    color: rgb(25, 135, 84);
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-login {
+    position: absolute;
+    right: 185px;
+    bottom: 135px;
+    
+}
+
+.btn {
+    color: white;
+    background-color: rgb(25, 135, 84);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 14px;
+    padding-left: 14px;
+    border-radius: 30px;
+    border: none;
+    width: 97px;
+    height: 40px;
+    font-size: 15.5px;
+    cursor: pointer;
+}
+
+.person1 {
+    position: absolute;
+    right: 315px;
+    top: 65px;
+    color: rgba(0, 0, 0, .6);
+}
+
+.lock1 {
+    position: absolute;
+    right: 315px;
+    top: 118px;
+    color: rgba(0, 0, 0, .6);
+}
+
+.PNC {
+    color: green;
+    font-size: 150px;
+    animation: alternate;
+    text-align: center;
+}
+
+
+
+
+
+
+    
+   
